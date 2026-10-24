@@ -5,7 +5,7 @@ edition = "2021"
 authors = ["Jacob Cavazos <jjcav84@gmail.com>"]
 license = "MIT"
 description = "Anonymous on-chain voting with Halo2 zero-knowledge proofs — Thrive/Horizen grant demo"
-repository = "https://github.com/jjcav84/zk-ballot"
+repository = "https://github.com/orkid-labs/zk-ballot"
 keywords = ["zero-knowledge", "halo2", "voting", "privacy", "horizen"]
 categories = ["cryptography", "cryptography::cryptocurrencies"]
 
@@ -16,7 +16,7 @@ ff = "0.13"
 rand = "0.8"
 hex = "0.4"
 serde = { version = "1", features = ["derive"] }
-negentropy = { git = "https://github.com/jjcav84/negentropy.git", rev = "ff60573d9baec1129b9d60734b77dc08b9dad093" }
+negentropy = { version = "0.1.0", package = "orkid-negentropy" }
 
 [[bin]]
 name = "demo"
