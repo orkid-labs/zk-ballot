@@ -352,3 +352,18 @@ systems. See our other work at [orkidlabs.com](https://www.orkidlabs.com).
 ## License
 
 MIT
+
+---
+
+## Part of Orkid Labs
+
+**zk-ballot** — Anonymous on-chain voting with Halo2 zero-knowledge proofs — Rust prover and verifier library.
+
+- Install: `cargo add zk-ballot`
+- Package: https://crates.io/crates/zk-ballot
+- API docs: https://docs.rs/zk-ballot
+- Docs: https://docs.orkidlabs.xyz/packages/zk-ballot
+
+Related Orkid projects: [horizen-ballot](https://github.com/orkid-labs/horizen-ballot), [zk-attest](https://github.com/orkid-labs/zk-attest)
+
+Orkid Labs builds gasless, MEV-protected swap routing and agent-native DeFi infrastructure — [orkidlabs.xyz](https://orkidlabs.xyz) · [@orkid-labs on npm](https://www.npmjs.com/org/orkid-labs) · [github.com/orkid-labs](https://github.com/orkid-labs)
